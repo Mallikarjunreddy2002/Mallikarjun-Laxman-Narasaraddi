@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR-online-shopping Mall</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="1proj.css">
+</head>
+<body>
+    <section id="header">
+
+        <a href=""><img src="mr_logo.png" alt=""  height="100px" width="120px"> </a>
+
+        <div>
+            <ul id="navbar" type="none">
+              <li><a  href="./1proj.html">Home</a></li>
+              <li><a href="1shop.html">Shop</a></li>
+              <li><a href="1blog.html">Blog</a></li>
+              <li><a href="./1abou.html">About</a></li>
+              <li><a href="./1contact.html">Contact</a></li>
+              <li><a id="lg-bag" href="./1cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li> 
+              <i id="close" class="fa-solid fa-xmark"></i>
+            </ul> 
+        </div>
+        <div id="mobile">
+          <i id="bar" class="fas fa-outdent"></i>
+          <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+
+        </div>
+    </section>
+
+    <section id="pro-details" class="section-p1">
+        <div class="single-pro-image">
+            <a href="./1shop014.html"><img src="./ku5.png" id="mainimg" alt="" width="100%"></a>
+            <div class="sub-image-group">
+                <div class="sub-image-col">
+                   <img src="./ku5.png" alt="" width="100%" class="sub-images">
+                </div>
+                <div class="sub-image-col">
+                    <img src="./ku51.png" alt="" width="100%" class="sub-images">
+                </div>
+                <div class="sub-image-col">
+                    <img src="./ku52.png" alt="" width="100%" class="sub-images">
+                </div>
+                <div class="sub-image-col">
+                  <img src="./ku53.png" alt="" width="100%" class="sub-images">
+                </div>
+            </div>
+        </div>
+        
+    <script>
+      let mainimg = document.getElementById("mainimg")
+      let subimage = document.getElementsByClassName("sub-images")
+      console.log(mainimg);
+      console.log(subimage);
+
+      subimage[0].onclick = function (){
+        mainimg.src=subimage[0].src;
+
+      }
+      subimage[1].onclick = function (){
+        mainimg.src=subimage[1].src;
+      }
+      subimage[2].onclick = function (){
+        mainimg.src=subimage[2].src;
+      }
+      subimage[3].onclick = function (){
+        mainimg.src=subimage[3].src;
+      }
+    </script>
+
+        <div class="single-product-detail">
+            <h6>Kurth</h6>
+            <h4>Mens fashion Kurth</h4>
+            <h2>$1999.00</h2>
+            <select name="" id="">
+               <option value="">Select size</option>
+               <option value="">XXL</option>
+               <option value="">XL</option>
+               <option value="">Large</option>
+               <option value="">Small</option>
+            </select>
+            <input type="number" value="1" size="2">
+            <button>Add To Cart</button>
+            <h4>Product Discription</h4>
+            <span>
+              Showcase your refined sartorial taste in this Peach Textured shirt from Louis Philippe at a Formal event. 
+              Tailored in Classic Fit , this shirt features a Regular Collar , Half Sleeves , and is crafted from exquisite 100% Cotton .</span>
+            </span>
+            <h4>Product Detail</h4>
+            <span>
+              The product details for the black and white striped Kurth are as follows: 
+            <p> Fit: Slim fit</p>
+            <p>Material: 100% cotton or cotton blend</p> 
+            <p>Sleeve Length: Full sleeves</p>
+            <p>Pattern: Striped</p>
+            <p>Collar: Shirt collar or buttoned collar</p>
+            <p>Black with white stripes</p> 
+            <p>Care Instructions: Machine wash</p>
+            <p>Other Features: Some shirts may have a chest pocket</p>
+            </span>
+        </div>
+
+    </section>
+
+    <section id="products1" class="section-p1">
+      <h2>Feature Products</h2>
+      <p>New Formal design Shirts and Pants Collection</p>
+      <div class="pro-container">
+        <div class="pro">
+         <a href="./1shop1.html"> <img src="sh11.jpg" height="300px"  width="50px" alt="" > </a>
+          <div class="des">
+            <span>adidas</span>
+            <h5>cartoon astronut shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>1599rs</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+
+      <div class="pro">
+       <a href="./1shop2.html"><img src="sh21.png" height="300px"  width="50px" alt="" ></a> 
+        <div class="des">
+          <span>adidas</span>
+          <h5>cartoon astronut Shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>1799rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop3.html"><img src="sh31.png" height="300px"  width="50px" alt="" ></a> 
+        <div class="des">
+          <span>adidas</span>
+          <h5>cartoon astronut shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>2799rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop4.html"><img src="sh41.webp" height="300px"  width="50px" alt="" ></a>
+        <div class="des">
+          <span>adidas</span>
+          <h5>cartoon astronut shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>1499rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop5.html"><img src="sh51.webp" height="300px"  width="50px" alt="" ></a>
+        <div class="des">
+          <span>adidas</span>
+          <h5>cartoon astronut shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>2999rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop6.html"><img src="sh61.webp" height="300px"  width="50px" alt="" ></a>
+        <div class="des">
+          <span>adidas</span>
+          <h5>cartoon astronut shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>1999rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop7.html"><img src="sh71.webp" height="300px"  width="50px" alt="" ></a>
+        <div class="des">
+          <span>adidas</span>
+          <h5>cartoon astronut shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>1499rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop8.html"><img src="sh81.webp" height="300px"  width="50px" alt="" ></a>
+        <div class="des">
+          <span>adidas</span>
+          <h5>cartoon astronut shirt</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>1999rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+    </div>
+    </section>
+
+    <section id="products1" class="section-p1">
+      <p>New Modern kurta Collection</p>
+      <div class="pro-container">
+        <div class="pro">
+          <a href="./1shop09.html"><img src="ku8.png" height="400px"  width="150px" alt="" ></a> 
+          <div class="des">
+            <span>Kurta</span>
+            <h5>cartoon astronut Kurta</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>4199rs</h4>
+          </div>
+          <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+
+      <div class="pro">
+        <a href="./1shop010.html"><img src="ku1.png" height="400px"  width="150px" alt="" ></a>
+        <div class="des">
+          <span>Kurtas</span>
+          <h5>cartoon astronut Kurta</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>2799rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop011.html"><img src="ku2.png   " height="400px"  width="150px" alt="" ></a> 
+        <div class="des">
+          <span>Kurta</span>
+          <h5>cartoon astronut Kurta</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>3899rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop012.html"><img src="ku3.png" height="400px"  width="150px" alt="" ></a> 
+        <div class="des">
+          <span>Kurta</span>
+          <h5>cartoon astronut Kurta</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>4499rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop013.html"><img src="ku4.png" height="400px"  width="150px" alt="" ></a> 
+        <div class="des">
+          <span>Kurta</span>
+          <h5>cartoon astronut Kurta</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>3559rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop014.html"><img src="ku5.png" height="400px"  width="150px" alt="" ></a> 
+        <div class="des">
+          <span>Kurta</span>
+          <h5>cartoon astronut Kurta</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>2579rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop015.html"><img src="ku7.png" height="400px"  width="150px" alt="" ></a> 
+        <div class="des">
+          <span>Kurta</span>
+          <h5>cartoon astronut Kurta</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>3499rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+      <div class="pro">
+        <a href="./1shop016.html"><img src="ku6.png" height="400px"  width="150px" alt="" ></a> 
+        <div class="des">
+          <span>Kurta</span>
+          <h5>cartoon astronut Kurta</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>4599rs</h4>
+        </div>
+        <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
+      </div>
+
+    </div>
+    </section>
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+          <h4>sign up for more</h4>
+          <p>Get E-mail update for our latest shop and <span>special offers..!!!</span></p>
+        </div>
+  
+        <div class="form">
+          <input type="text" placeholder="Your Email address required">
+          <button class="btnn">Sign-up</button>
+        </div>
+  
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+          <img class="logo" src="./mr_logo.png" height="100px" width="100px">
+  
+          <h3>Contact</h3>
+          <p><strong>Address :</strong>MG road,church street,Bangaluru-560010.</p>
+          <p><strong>Phone :</strong>(+91) 6363178975/7676381722</p>
+          <p><strong>Email :</strong>mallureddy23@gmail.com</p>
+          <p><strong>Hours :</strong>9.00 - 22.00 , Sun-Sat</p>
+          <div class="follow">
+             <h4>Follow us</h4>
+             <div class="follow">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-brands fa-pinterest"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h4>About</h4>
+          <a href="">Delivery Information</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms & Conditions</a>
+          <a href="">Contact us</a>
+      
+        </div>
+        <div class="col">
+          <h4>My Account</h4>
+          <a href="">Sign In</a>
+          <a href="">View Cart</a>
+          <a href="">Track My Order</a>
+          <a href="">Help</a>
+      
+        </div>
+        <div class="col install">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+            <img src="./App_Store_logo.png" alt="" height="50px" width="130px">
+            <img src="./Google_Play_Store_logo.png" alt="" height="50px" width="130px">
+          </div>
+          <p>Secured Payment Gateways</p>
+          <img src="./secure_payment_logo.png" alt="" height="100px" width="250px">
+      
+        </div>
+      </footer>
+      <div id="copy-right">
+        <p>@ 2025, Tech etc - HTML-CSS E-commerce Template</p>
+      </div>
+      
+      <script src="./1proj.js"></script>
+  
+</body>
+</html>
